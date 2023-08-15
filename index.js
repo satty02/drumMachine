@@ -147,6 +147,7 @@ function Pad({clip , volume, setRecord}){
         audioTag.volume = volume
         audioTag.play();
         setRecord(prev=>prev + clip.key + ' ')
+        
     }
 
     return (
